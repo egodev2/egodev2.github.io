@@ -29,10 +29,21 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
-# Build settings
-theme: minima
+# Required plugins for the theme to work properly
 plugins:
-  - jekyll-feed
+  - jekyll-remote-theme
+  - jemoji
+
+# Build settings
+remote_theme: "tareqdandachi/jekyll-shell-theme"
+
+sass:
+  style: compressed
+
+highlighter: rouge #selecting the highlighter, default is rouge
+
+# controls how big the shell and font looks
+font-size: small # options: [small] or [large]
 
 # Exclude from processing.
 # The following items will not be processed, by default.
