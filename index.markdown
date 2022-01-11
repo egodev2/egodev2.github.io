@@ -1,8 +1,9 @@
 ---
 
-# Seção
-
-HEllo world!
 
 layout: home
 ---
+
+# Seção
+
+Hello world!
